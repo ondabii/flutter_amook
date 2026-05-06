@@ -8505,7 +8505,7 @@ n=B.na.gHp().cG(a)
 m=A.fK("https://api.imgbb.com/1/upload",0,null)
 h=t.N
 s=7
-return A.L(A.aLc(m,A.az(["key","bc6037ad988452b922f1d15e44328968","image",n,"expiration","60"],h,h)),$async$ahX)
+return A.L(A.aLc(m,A.az(["key","bc6037ad988452b922f1d15e44328968","image",n],h,h)),$async$ahX)
 case 7:l=c
 if(l.b===200){h=l
 k=B.c5.GU(0,A.aKD(A.aJy(h.e)).eb(0,h.w),null)
