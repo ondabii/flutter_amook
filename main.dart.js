@@ -45018,7 +45018,7 @@ return null},
 $S:0}
 A.auV.prototype={
 $0(){A.ic(this.a,!1).kD(null)
-window.location.href="https://www.samjinfood.com/member/login.php"},
+window.location.href="https://samjinfood.com/board/event_test.php"},
 $S:0}
 A.auT.prototype={
 $0(){var s,r,q,p,o=this.a
