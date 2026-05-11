@@ -31,6 +31,21 @@
 
   <title>amook_contest</title>
   <link rel="manifest" href="manifest.json">
+
+  <!-- 팝업 창 크기 자동 조절 스크립트 -->
+  <script>
+    window.addEventListener('load', function() {
+      // 데스크탑 환경(화면 가로가 768px 이상)에서 팝업(opener 존재)으로 열렸을 때
+      if (window.opener && window.screen.width > 768) {
+        // 모바일 비율의 적절한 창 크기 (세로가 긴 형태)
+        var targetWidth = 480;
+        var targetHeight = 850;
+        
+        // 브라우저 윈도우 크기 강제 조절
+        window.resizeTo(targetWidth, targetHeight);
+      }
+    });
+  </script>
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
